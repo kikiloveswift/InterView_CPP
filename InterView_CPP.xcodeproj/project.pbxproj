@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC04D0FA1EE8F2E100D868E8 /* TArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC04D0F81EE8F2E100D868E8 /* TArray.cpp */; };
+		FC2CF2C31EEE8B8C0076DCD5 /* ComplexTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC2CF2C11EEE8B8C0076DCD5 /* ComplexTest.cpp */; };
 		FCDD64BC1EE0F71200750A06 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCDD64BB1EE0F71200750A06 /* main.cpp */; };
-		FCDD64C41EE0F7BA00750A06 /* Human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCDD64C21EE0F7BA00750A06 /* Human.cpp */; };
+		FCE845831EEA68C1002998D6 /* FriendTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCE845811EEA68C1002998D6 /* FriendTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC04D0F81EE8F2E100D868E8 /* TArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TArray.cpp; sourceTree = "<group>"; };
+		FC04D0F91EE8F2E100D868E8 /* TArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TArray.hpp; sourceTree = "<group>"; };
+		FC2CF2C11EEE8B8C0076DCD5 /* ComplexTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexTest.cpp; sourceTree = "<group>"; };
+		FC2CF2C21EEE8B8C0076DCD5 /* ComplexTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComplexTest.hpp; sourceTree = "<group>"; };
 		FCDD64B81EE0F71200750A06 /* InterView_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InterView_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDD64BB1EE0F71200750A06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		FCDD64C21EE0F7BA00750A06 /* Human.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Human.cpp; sourceTree = "<group>"; };
-		FCDD64C31EE0F7BA00750A06 /* Human.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Human.hpp; sourceTree = "<group>"; };
+		FCE845811EEA68C1002998D6 /* FriendTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FriendTest.cpp; sourceTree = "<group>"; };
+		FCE845821EEA68C1002998D6 /* FriendTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FriendTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				FCDD64BB1EE0F71200750A06 /* main.cpp */,
-				FCDD64C21EE0F7BA00750A06 /* Human.cpp */,
-				FCDD64C31EE0F7BA00750A06 /* Human.hpp */,
+				FC04D0F81EE8F2E100D868E8 /* TArray.cpp */,
+				FC04D0F91EE8F2E100D868E8 /* TArray.hpp */,
+				FCE845811EEA68C1002998D6 /* FriendTest.cpp */,
+				FCE845821EEA68C1002998D6 /* FriendTest.hpp */,
+				FC2CF2C11EEE8B8C0076DCD5 /* ComplexTest.cpp */,
+				FC2CF2C21EEE8B8C0076DCD5 /* ComplexTest.hpp */,
 			);
 			path = InterView_CPP;
 			sourceTree = "<group>";
@@ -125,8 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2CF2C31EEE8B8C0076DCD5 /* ComplexTest.cpp in Sources */,
+				FCE845831EEA68C1002998D6 /* FriendTest.cpp in Sources */,
+				FC04D0FA1EE8F2E100D868E8 /* TArray.cpp in Sources */,
 				FCDD64BC1EE0F71200750A06 /* main.cpp in Sources */,
-				FCDD64C41EE0F7BA00750A06 /* Human.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 				FCDD64C11EE0F71200750A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
